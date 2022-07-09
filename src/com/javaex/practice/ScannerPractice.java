@@ -11,6 +11,8 @@ public class ScannerPractice {
 		//system in 입력 
 		
 		/***** Scanner scan = new Scanner(System.in) //콘솔창에 입력받아 넣기 
+		 * 문자로 받고 싶으면 sc.nextLine, sc.next
+		 * 숫자(정수,실수......) sc.nextInt, sc.nextdouble
 		 * 
 		 * ex ) 월급 => 연봉 출력 
 		 *      반지름 => 원넓이 출력 
@@ -23,7 +25,7 @@ public class ScannerPractice {
 				
 				System.out.println("반지름얼마?");
 				Scanner sc = new Scanner(System.in);
-				double rd= sc.nextDouble();
+				double rd= sc.nextDouble(); 
 				final double PI =  3.14;
 				double nm = PI*rd*rd;
 						
